@@ -2,4 +2,3 @@
 applications:
 - name: nmp-config-server-germand
   host: nmp-config-server-germand
-  path: target/cloud-config-server.war
