@@ -1,0 +1,4 @@
+---
+applications:
+- name: config-server
+  host: nmp-config-server

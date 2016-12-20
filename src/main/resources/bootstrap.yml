@@ -1,0 +1,26 @@
+# Versión que busca las configuraciones en GitHub
+
+server:
+    # por convención va en 8888
+    port: 8888
+
+spring:
+    application:
+        name: nmp-spring-cloud-server
+    cloud:
+        config:
+            server:
+                git:
+                    uri: https://github.com/MontePiedadMx/ms-config-{profile}
+                    searchPaths: '{application}'
+                    username: '{cipher}5106c27d64578b2cfb04d1755cd4d2ae172c295a8682c3bf043b89387d8561f2'
+                    password: '{cipher}63832c8baa3a3d8e0bda262e09b3fe995ca91698535707863d0f6d461a6185f0'
+
+security:
+    user:
+        # contraseña para autenticación básica
+        password: password
+
+encrypt:
+    # Requerida para poder encriptar valores. Es una cadena que debe ser diferente por cada aplicación
+    key: x4Lyp9u8xdkRHTGu
