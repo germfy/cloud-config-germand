@@ -1,4 +1,4 @@
 ---
 applications:
-- name: config-server
-  host: nmp-config-server
+- name: nmp-config-server-germand
+  host: nmp-config-server-germand
